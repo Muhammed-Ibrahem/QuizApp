@@ -1,6 +1,6 @@
 # Quiz App 🤔
 
-### Live Demo: ![]() 🚀
+### [LIVE DEMO](https://trivia-webapp-quiz.netlify.app/) 🚀
 
 ---
 
