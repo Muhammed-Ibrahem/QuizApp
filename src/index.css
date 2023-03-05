@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Karla:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bgColor: 220deg 43% 97%;
+    --txtColor: 231deg 42% 28%;
+    --btnBg: 230deg 34% 46%;
+    --OffWhite: 220deg, 43%, 97%;
+    --correctColor: 133deg 46% 71%;
+    --incorrectColor: 0deg 81% 85%;
+    --active: 230deg 61% 90%;
+  }
+}
+.activeVal {
+  @apply flex items-center justify-center rounded-lg bg-active py-2  px-4 text-xs font-medium leading-[12px];
+}
